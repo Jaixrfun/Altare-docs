@@ -1,47 +1,39 @@
 {
   "name": "BerryByte Wiki",
   "logo": {
-    "light": "/logo/light-new.webp",
-    "dark": "/logo/dark-new.webp"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#DC3962",
-    "light": "#FF81A0",
-    "dark": "#AE0C35",
+    "primary": "#6366f1",
+    "light": "#6366f1",
+    "dark": "#6366f1",
     "background": {
-      "dark": "#12141C",
+      "dark": "#060610",
       "light": "#f7f7f7"
     }
   },
   "topbarCtaButton": {
-    "name": "Create a server",
-    "url": "https://berrybyte.net/"
+    "name": "Dashboard",
+    "url": "https://frac.gg/auth"
   },
     "feedback": {
     "thumbsRating": true,
     "suggestEdit": false,
     "raiseIssue": false
   },
-  "analytics": {
-    "ga4": {
-        "measurementId": "G-YNYEX38EPS"
-    },
-    "plausible": {
-      "domain": "docs.berrybyte.net"
-  }
-  },
   "topbarLinks": [
     {
       "name": "Contact us",
-      "url": "https://berrybyte.net/contact "
+      "url": "https://frac.gg/contact"
     }
   ],
   "anchors": [
     {
       "name": "Discord Community",
       "icon": "discord",
-      "url": "https://berrybyte.net/discord"
+      "url": "https://discord.gg/frac"
     },
     {
       "name": "Minecraft",
@@ -52,31 +44,18 @@
       "name": "Palworld",
       "icon": "dinosaur",
       "url": "games/palworld"
-    },
-    {
-      "name": "Enshrouded",
-      "icon": "sword",
-      "url": "games/enshrouded"
-    },
-    {
-      "name": "Soulmask",
-      "icon": "mask",
-      "url": "games/soulmask"
     }
   ],
   "navigation": [
     {
       "group": "Welcome",
-      "pages": ["introduction","quickstart","changelog"]
+      "pages": ["introduction","quickstart"]
     },
     {
       "group": "Game Panel",
       "pages": [
         "panel/overview",
-        "panel/backups",
-        "panel/server-slices",
         "panel/importing-files",
-        "panel/recycle-bin",
         "panel/sub-users"
       ]
     },
@@ -136,25 +115,6 @@
         "games/palworld/become-an-admin",
         "games/palworld/setup-xbox-dedicated-server",
         "games/palworld/xbox-platform-error"
-      ]
-    },
-    {
-      "group": "Soulmask",
-      "pages": [
-        "games/soulmask/introduction",
-        "games/soulmask/join-server",
-        "games/soulmask/update-server",
-        "games/soulmask/banning-and-unbanning-players",
-        "games/soulmask/change-server-settings"
-      ]
-    },
-    {
-      "group": "Enshrouded",
-      "pages": [
-        "games/enshrouded/introduction",
-        "games/enshrouded/join-server",
-        "games/enshrouded/transfer-world"
-
       ]
     }
   ],

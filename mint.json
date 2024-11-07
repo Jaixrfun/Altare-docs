@@ -1,5 +1,5 @@
 {
-  "name": "BerryByte Wiki",
+  "name": "Fractal Docs",
   "logo": {
     "light": "/logo/light.png",
     "dark": "/logo/dark.png"
@@ -15,7 +15,7 @@
     }
   },
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Join Fractal",
     "url": "https://frac.gg/auth"
   },
     "feedback": {
@@ -25,25 +25,20 @@
   },
   "topbarLinks": [
     {
-      "name": "Contact us",
+      "name": "Contact",
       "url": "https://frac.gg/contact"
     }
   ],
   "anchors": [
     {
-      "name": "Discord Community",
+      "name": "Discord",
       "icon": "discord",
       "url": "https://discord.gg/frac"
     },
     {
-      "name": "Minecraft",
+      "name": "Minecraft Guides",
       "icon": "cubes",
       "url": "games/minecraft"
-    },
-    {
-      "name": "Palworld",
-      "icon": "dinosaur",
-      "url": "games/palworld"
     }
   ],
   "navigation": [
@@ -52,7 +47,7 @@
       "pages": ["introduction","quickstart"]
     },
     {
-      "group": "Game Panel",
+      "group": "Panel",
       "pages": [
         "panel/overview",
         "panel/importing-files",
@@ -60,7 +55,7 @@
       ]
     },
     {
-      "group": "Minecraft",
+      "group": "Minecraft Guides",
       "pages": [
         "games/minecraft/introduction",
         {
@@ -94,33 +89,10 @@
         "games/minecraft/resource-packs",
         "games/minecraft/aikars-flags"
       ]
-    },
-    {
-      "group": "Palworld",
-      "pages": [
-        "games/palworld/introduction",
-        "games/palworld/join-server",
-        "games/palworld/join-xbox-server",
-        "games/palworld/update-server",
-        "games/palworld/setup-server",
-        "games/palworld/reset-server",
-        "games/palworld/change-server-version",
-        "games/palworld/set-server-password",
-        "games/palworld/configure-server-settings",
-        "games/palworld/restore-autosave-backup",
-        "games/palworld/enable-autosave-automatic-backups",
-        "games/palworld/fix-server-crashes",
-        "games/palworld/ban-and-kick-players",
-        "games/palworld/unban-players",
-        "games/palworld/become-an-admin",
-        "games/palworld/setup-xbox-dedicated-server",
-        "games/palworld/xbox-platform-error"
-      ]
     }
   ],
   "footerSocials": {
-    "website": "https://berrybyte.net/",
-    "github": "https://github.com/berrybyte-net/docs",
-    "discord": "https://discord.gg/Wc9wMZxQ2D"
+    "website": "https://frac.gg/",
+    "discord": "https://discord.gg/frac"
   }
 }

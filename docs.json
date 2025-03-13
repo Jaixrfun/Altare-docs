@@ -1,0 +1,112 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Fractal Docs",
+  "colors": {
+    "primary": "#6366f1",
+    "light": "#6366f1",
+    "dark": "#6366f1"
+  },
+  "favicon": "/logo/favicon.png",
+  "navigation": {
+    "anchors": [
+      {
+        "anchor": "Documentation",
+        "icon": "book-open",
+        "groups": [
+          {
+            "group": "Welcome",
+            "pages": [
+              "introduction",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Panel",
+            "pages": [
+              "panel/overview",
+              "panel/importing-files",
+              "panel/sub-users"
+            ]
+          }
+        ]
+      },
+      {
+        "anchor": "Discord",
+        "href": "https://discord.gg/frac",
+        "icon": "discord"
+      },
+      {
+        "anchor": "Minecraft Guides",
+        "icon": "cubes",
+        "groups": [
+          {
+            "group": "Minecraft Guides",
+            "pages": [
+              "games/minecraft/introduction",
+              {
+                "group": "Plugins",
+                "pages": [
+                  "games/minecraft/plugins/chunky",
+                  "games/minecraft/plugins/dynmap",
+                  "games/minecraft/plugins/geyser",
+                  "games/minecraft/plugins/votifier"
+                ]
+              },
+              {
+                "group": "Common Errors",
+                "pages": [
+                  "games/minecraft/common-errors/connection-timed-out",
+                  "games/minecraft/common-errors/exception-server-tick-loop",
+                  "games/minecraft/common-errors/failed-to-check-session-lock",
+                  "games/minecraft/common-errors/kicked-for-flying"
+                ]
+              },
+              "games/minecraft/updating-jars",
+              "games/minecraft/server-icon",
+              "games/minecraft/installing-modpacks",
+              "games/minecraft/installing-mods",
+              "games/minecraft/changing-versions",
+              "games/minecraft/join-server",
+              "games/minecraft/setting-up-rcon",
+              "games/minecraft/convert-world",
+              "games/minecraft/convert-bedrock-to-java",
+              "games/minecraft/upload-world",
+              "games/minecraft/resource-packs",
+              "games/minecraft/aikars-flags"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "background": {
+    "color": {
+      "light": "#f7f7f7",
+      "dark": "#060610"
+    }
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Contact",
+        "href": "https://frac.gg/contact"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Join Fractal",
+      "href": "https://frac.gg/auth"
+    }
+  },
+  "footer": {
+    "socials": {
+      "website": "https://frac.gg/",
+      "discord": "https://discord.gg/frac"
+    }
+  }
+}

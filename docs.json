@@ -3,6 +3,7 @@
   "theme": "mint",
   "appearance": {
     "default": "light"
+    "strict": true
   },
   "name": "Fractal Docs",
   "colors": {

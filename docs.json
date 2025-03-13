@@ -1,6 +1,9 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": {
+    "default": "light",
+    "strict": true
+  },
   "name": "Fractal Docs",
   "colors": {
     "primary": "#6366f1",

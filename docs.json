@@ -7,9 +7,9 @@
   },
   "name": "Fractal Docs",
   "colors": {
-    "primary": "#6366f1",
-    "light": "#6366f1",
-    "dark": "#6366f1"
+    "primary": "#101115",
+    "light": "#101115",
+    "dark": "#101115"
   },
   "favicon": "/logo/favicon.png",
   "navigation": {

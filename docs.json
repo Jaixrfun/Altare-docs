@@ -5,7 +5,7 @@
     "default": "light",
     "strict": true
   },
-  "name": "Fractal Docs",
+  "name": "Altare Docs",
   "colors": {
     "primary": "#101115",
     "light": "#101115",
@@ -15,7 +15,7 @@
   "navigation": {
     "anchors": [
       {
-        "anchor": "Documentation",
+        "anchor": "Docs",
         "icon": "book",
         "groups": [
           {
@@ -40,7 +40,7 @@
       },
       {
         "anchor": "Discord",
-        "href": "https://discord.gg/frac",
+        "href": "https://discord.gg/altare",
         "icon": "discord"
       }
     ]
@@ -59,19 +59,19 @@
     "links": [
       {
         "label": "Contact",
-        "href": "https://frac.gg/contact"
+        "href": "mailto:support@altare.pro"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Join Fractal",
-      "href": "https://frac.gg/auth"
+      "label": "Get Started",
+      "href": "https://console.altare.pro/app/auth"
     }
   },
   "footer": {
     "socials": {
-      "website": "https://frac.gg/",
-      "discord": "https://discord.gg/frac"
+      "website": "https://altare.pro/app",
+      "discord": "https://discord.gg/altare"
     }
   }
 }

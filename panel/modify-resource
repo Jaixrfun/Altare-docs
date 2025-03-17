@@ -1,0 +1,19 @@
+---  
+title: "Changing Server Resources"  
+description:  
+  "You can adjust your server's RAM, disk space, and CPU allocation through the package settings."  
+icon: "server"  
+---  
+
+## How to Change Server Resources  
+
+If you need to modify your server's allocated resources, follow these steps:  
+
+### Steps to adjust your server resources:  
+
+1. Navigate to your **server** in the panel.  
+2. Click on **Package** in the sidebar.  
+3. Once on the **Package** page, adjust your server resources below.  
+4. Save your changes to apply the new resource limits.  
+
+<Warning>**You might need to restart your server for changes to take effect.**</Warning>

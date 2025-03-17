@@ -16,7 +16,7 @@
     "anchors": [
       {
         "anchor": "Documentation",
-        "icon": "book-open",
+        "icon": "book",
         "groups": [
           {
             "group": "Welcome",

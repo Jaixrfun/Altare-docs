@@ -30,7 +30,10 @@
             "pages": [
               "panel/overview",
               "panel/importing-files",
-              "panel/sub-users"
+              "panel/sub-users",
+              "panel/modify-resource",
+              "panel/delete-server",
+              "panel/create-port"
             ]
           }
         ]
